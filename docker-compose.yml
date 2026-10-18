@@ -1,0 +1,12 @@
+services:
+  student-app:
+    build:
+      context: .
+    image: zhaugash-nurzhan-devops:latest
+    container_name: zhaugash-nurzhan-container
+    environment:
+      STUDENT_NAME: ${STUDENT_NAME:-Nurzhan}
+      STUDENT_SURNAME: ${STUDENT_SURNAME:-Zhaugash}
+      STUDENT_GROUP: ${STUDENT_GROUP:-REPLACE_WITH_GROUP}
+      STUDENT_ID: ${STUDENT_ID:-REPLACE_WITH_STUDENT_ID}
+    restart: "no"
