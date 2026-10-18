@@ -10,13 +10,7 @@ This repository implements the Linux, Git, Docker, and Jenkins workflow for the 
 - Student ID: `38387`
 - Course: DevOps
 
-Replace the two placeholder values in `Zhaugash_Nurzhan_info.txt`, `.env.example`, `app/student_app.sh`, `scripts/Zhaugash_Nurzhan_system.sh`, `docker-compose.yml`, and `Jenkinsfile` before submission.
-
-To replace both values everywhere in one command, run:
-
-```bash
-./scripts/personalize.sh YOUR_GROUP YOUR_STUDENT_ID
-```
+The same personal values are used consistently by the application, Docker Compose, and Jenkins pipeline.
 
 ## Project structure
 
