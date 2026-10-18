@@ -1,0 +1,5 @@
+Name: Nurzhan
+Surname: Zhaugash
+Group: REPLACE_WITH_GROUP
+Student ID: REPLACE_WITH_STUDENT_ID
+Course: DevOps
