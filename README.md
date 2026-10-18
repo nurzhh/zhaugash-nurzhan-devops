@@ -6,8 +6,8 @@ This repository implements the Linux, Git, Docker, and Jenkins workflow for the 
 
 - Name: Nurzhan
 - Surname: Zhaugash
-- Group: `REPLACE_WITH_GROUP`
-- Student ID: `REPLACE_WITH_STUDENT_ID`
+- Group: `IT2-2312`
+- Student ID: `38387`
 - Course: DevOps
 
 Replace the two placeholder values in `Zhaugash_Nurzhan_info.txt`, `.env.example`, `app/student_app.sh`, `scripts/Zhaugash_Nurzhan_system.sh`, `docker-compose.yml`, and `Jenkinsfile` before submission.

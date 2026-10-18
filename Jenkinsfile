@@ -4,8 +4,8 @@ pipeline {
     environment {
         STUDENT_NAME = 'Nurzhan'
         STUDENT_SURNAME = 'Zhaugash'
-        STUDENT_GROUP = 'REPLACE_WITH_GROUP'
-        STUDENT_ID = 'REPLACE_WITH_STUDENT_ID'
+        STUDENT_GROUP = 'IT2-2312'
+        STUDENT_ID = '38387'
         IMAGE_NAME = 'zhaugash-nurzhan-devops'
         CONTAINER_NAME = 'zhaugash-nurzhan-container'
     }
