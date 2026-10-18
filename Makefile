@@ -1,4 +1,7 @@
-.PHONY: run test system log-demo permissions process docker-build docker-run compose-up compose-down verify
+.PHONY: setup run test system log-demo permissions process docker-build docker-run compose-up compose-down verify
+
+setup:
+	./scripts/setup_demo_files.sh
 
 run:
 	./app/student_app.sh
@@ -30,4 +33,4 @@ compose-up:
 compose-down:
 	docker compose down
 
-verify: test system log-demo permissions process
+verify: setup test system log-demo permissions process

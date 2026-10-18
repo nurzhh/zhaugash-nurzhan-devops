@@ -50,6 +50,8 @@ Run the complete local verification:
 make verify
 ```
 
+The `setup` step creates the ignored `logs/application.log` and `backup/` directory from tracked project files, so a fresh clone remains reproducible while `.gitignore` still excludes generated logs and backups.
+
 Individual demonstrations:
 
 ```bash
