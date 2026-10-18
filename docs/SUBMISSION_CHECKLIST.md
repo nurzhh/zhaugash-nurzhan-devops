@@ -11,7 +11,7 @@
 - [x] Jenkinsfile with Checkout, Build, Test, Docker Build, and Docker Run
 - [x] Word and PDF report
 - [x] Video demonstration script
-- [ ] Create and push the public GitHub repository
+- [x] Create and push the public GitHub repository
 - [ ] Create the Jenkins job `Zhaugash_Nurzhan_DevOps`
 - [ ] Run Jenkins until `Finished: SUCCESS`
 - [ ] Add real GitHub and Jenkins screenshots to the final report if required

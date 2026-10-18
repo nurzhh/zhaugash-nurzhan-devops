@@ -114,12 +114,11 @@ git switch main
 git merge development
 ```
 
-To publish after creating an empty GitHub repository named `zhaugash-nurzhan-devops`:
+Public GitHub repository:
 
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/zhaugash-nurzhan-devops.git
-git push -u origin main
-```
+https://github.com/nurzhh/zhaugash-nurzhan-devops
+
+Both `main` and `development` branches are published.
 
 `git push` sends local commits to the remote repository. `git pull` fetches remote commits and integrates them into the current local branch.
 
