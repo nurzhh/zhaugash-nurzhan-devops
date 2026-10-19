@@ -2,6 +2,7 @@ pipeline {
     agent any
 
     environment {
+        PATH+DOCKER = '/usr/local/bin'
         STUDENT_NAME = 'Nurzhan'
         STUDENT_SURNAME = 'Zhaugash'
         STUDENT_GROUP = 'IT2-2312'
