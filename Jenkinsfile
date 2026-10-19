@@ -33,27 +33,27 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                sh 'docker build -t $IMAGE_NAME:$BUILD_NUMBER -t $IMAGE_NAME:latest .'
+                sh '/usr/local/bin/docker build -t $IMAGE_NAME:$BUILD_NUMBER -t $IMAGE_NAME:latest .'
             }
         }
 
         stage('Docker Run') {
             steps {
-                sh 'docker rm -f $CONTAINER_NAME >/dev/null 2>&1 || true'
-                sh '''docker run --name $CONTAINER_NAME \
+                sh '/usr/local/bin/docker rm -f $CONTAINER_NAME >/dev/null 2>&1 || true'
+                sh '''/usr/local/bin/docker run --name $CONTAINER_NAME \
                     -e STUDENT_NAME="$STUDENT_NAME" \
                     -e STUDENT_SURNAME="$STUDENT_SURNAME" \
                     -e STUDENT_GROUP="$STUDENT_GROUP" \
                     -e STUDENT_ID="$STUDENT_ID" \
                     $IMAGE_NAME:$BUILD_NUMBER'''
-                sh 'docker logs $CONTAINER_NAME'
+                sh '/usr/local/bin/docker logs $CONTAINER_NAME'
             }
         }
     }
 
     post {
         always {
-            sh 'docker rm -f $CONTAINER_NAME >/dev/null 2>&1 || true'
+            sh '/usr/local/bin/docker rm -f $CONTAINER_NAME >/dev/null 2>&1 || true'
         }
         success {
             echo "Student: ${STUDENT_NAME} ${STUDENT_SURNAME}"
