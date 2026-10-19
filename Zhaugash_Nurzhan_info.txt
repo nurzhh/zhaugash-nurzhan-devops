@@ -2,4 +2,4 @@ Name: Nurzhan
 Surname: Zhaugash
 Group: IT2-2312
 Student ID: 38387
-Course: DevOps
+Course: DevOps 
