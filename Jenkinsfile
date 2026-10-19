@@ -2,6 +2,7 @@ pipeline {
     agent any
 
     environment {
+        PATH = '/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin'
         STUDENT_NAME = 'Nurzhan'
         STUDENT_SURNAME = 'Zhaugash'
         STUDENT_GROUP = 'IT2-2312'
